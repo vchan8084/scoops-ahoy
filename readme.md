@@ -1,8 +1,8 @@
 # Scoops Ahoy
 
-## Simple Vanilla Boilerplate w/ Jest and Webpack
-
 ![ice cream](images/scoopsahoy.gif)
+
+## Simple Vanilla Boilerplate w/ Jest and Webpack
 
 This boilerplate makes it easy to make testable front end code. It includes:
 
