@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Scoops Ahoy</title>
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <script src="dist/main.js"></script>
+    <script src="dist/chatbox.js"></script>
   </body>
 
   <body>
@@ -17,45 +18,22 @@
           Scoops Ahoy
         </span>
       </div>
-    </div>
 
-    <section class="section section-light">
-      <h2>Section One</h2>
-      <p>STRANGER THINGS BLAH BLAH</p>
-    </section>
+      <div class="chat-box">
+        <button class="open-button" onclick="openForm()">Chat</button>
 
-    <div class="pimg2">
-      <div class="ptext">
-        <span class="border">
-          Image Two Text
-        </span>
+        <div class="chat-popup" id="myForm">
+          <form action="/action_page.php" class="form-container">
+            <h1>Chat</h1>
+
+            <label for="msg"><b>Message</b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">
+              Close
+            </button>
+          </form>
       </div>
-    </div>
-
-    <section class="section section-dark">
-      <h2>Section Two</h2>
-      <p>STRANGER THINGS BLAH BLAH BLAHHHH</p>
-    </section>
-
-    <div class="pimg3">
-      <div class="ptext">
-        <span class="border">
-          Image Three Text
-        </span>
-      </div>
-    </div>
-
-    <section class="section section-dark">
-      <h2>Section Three</h2>
-      <p>STRANGER THINGS BLAH BLAH BLAHHHH BLAHHHHH</p>
-    </section>
-
-    <div class="pimg1">
-      <div class="ptext">
-        <span class="border">
-          Scoops Ahoy
-        </span>
-      </div>
-    </div>
   </body>
 </html>
